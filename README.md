@@ -2,11 +2,6 @@
 
 ### A project management contextualisation for DaVinci Resolve
 
-![publishing flowchart ](README.assets/README-6be36da5.png)
-</br>
-Publishing processing flow chart
-</br></br>
-
 ## Idea:
 
 Version controlling Publisher and Integrator Resolve Python library for any project manager platform (PMP)
@@ -19,8 +14,8 @@ Inspiration is taken partly from NukeStudio basic concept of Clip Exporter. This
 
 -   _Context_ - dictionary object with collected processing data
 -   _Clip_ - entity with stored dictionary data for a clip
--   _Asset_ - a part of a project, such as or Shot (usually a Clip)
--   _Subset_ - a part of an Asset, such as a raw source, plates, nuke script
+-   _Asset_ - a part of a project, such as a Shot (usually a Clip)
+-   _Subset_ - a part of an Asset, such as a RAW source, plates, nuke script
 -   _Version_ - an immutable iteration of a Subset
 -   _Representation_ - one of many file representations (extensions) of a Version
 -   _Collector_ - micro-plugin with specified set of functions for collecting data from Resolve's context
@@ -29,17 +24,25 @@ Inspiration is taken partly from NukeStudio basic concept of Clip Exporter. This
 
 ## Key features:
 
--   Publishing context as json data object
+-   Publishing Resolve's context as json data object
     -   Exporting to a json file
     -   Extracting to any linked PMP API
 -   Renaming clips with template in sequence or single with additional hierarchy
 -   Integrating schema validated data back to timeline (clips, subsets with specified representations)
+
+![publishing flowchart ](README.assets/README-6be36da5.png)
+</br>
+Publishing processing flow chart
 
 ## UI concept:
 
 Adding timeline context menu items: Publish, VersionUp, VersionDown, VersionMax, VersionMin, Rename; so we could easily operate the library from the Resolve’s context.
 
 Dialogue window for Rename will let a user add hierarchical context to a clip for easy distribution into asset database with parenting. Template for name syntax can be evaluated from preset json file or from gui input field, this can be controlled with a selector.
+
+![publishing flowchart ](README.assets/README-6be34da5.png)
+</br>
+Publishing processing flow chart
 
 ## Key components:
 
@@ -86,10 +89,10 @@ Dialogue window for Rename will let a user add hierarchical context to a clip fo
     -   SingleRenameWithHierarchy
     -   GetNameTemplate (from presets or gui input)
 
+![flowChart](README.assets/README-a1c148cad.png)
+</br>
+Details of publishing classes
+
 ## OpenSource license:
 
 -   Apache 2.0
-
-## Main Data flow chart
-
-![flowChart](README.assets/README-a1c148cad.png)
