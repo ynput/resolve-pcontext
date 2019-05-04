@@ -2,13 +2,16 @@
 
 ### A project management contextualisation for DaVinci Resolve
 
-</br></br></br>
+</br>
+![](README.assets/README-6be36da5.png)
+Publishing processing flow chart
+</br></br>
 
 ## Idea:
 
 Version controlling Publisher and Integrator Resolve Python library for any project manager platform (PMP)
 
-## Brief details:w
+## Brief details
 
 Inspiration is taken partly from NukeStudio basic concept of Clip Exporter. This python library is about to connect any project manager platform (Ftrack, Shotgun, Avalon, Pyblish) into Resolve. It is also independent on any of them so it could be easily plugged. As we are working with color correcting editorial system we could also develop the way any simple Primary grading could be converted to correct LUT and extracted as pre-look (including looks from on-set-grading with additional stabilizations) and therefore let artists to preview raw data with the same look as in color-grading page in Resolve.
 
