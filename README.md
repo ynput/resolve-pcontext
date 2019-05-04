@@ -2,8 +2,7 @@
 
 ### A project management contextualisation for DaVinci Resolve
 
-</br>
-![](README.assets/README-6be36da5.png)
+![publishing flowchart ](README.assets/README-6be36da5.png)
 </br>
 Publishing processing flow chart
 </br></br>
