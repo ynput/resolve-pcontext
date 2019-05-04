@@ -81,4 +81,4 @@ Dialogue window for Rename will let a user add hierarchical context to a clip fo
 
 ## Main Data flow chart
 
-![flowChart](README.assets/README-a1c148ca.PNG)
+![flowChart](README.assets/README-a1c148cad.png)
