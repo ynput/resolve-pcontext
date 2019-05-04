@@ -1,6 +1,6 @@
-# **pContext**
+# **pContext - Resolve python module**
 
-### project management contextualisation for DaVinci Resolve
+### A project management contextualisation for DaVinci Resolve
 
 </br></br></br>
 
