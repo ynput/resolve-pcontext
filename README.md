@@ -22,6 +22,10 @@ Inspiration is taken partly from NukeStudio basic concept of Clip Exporter. This
 -   _Integrator_ - micro-plugin with specified set of functions for Integrating data into Resolve's context
 -   _Extractor_ - micro-plugin with specified set of functions for Extracting Resolve's data output
 
+![publishing flowchart ](README.assets/README-6be34d21.png)
+</br>
+Main overview of the plugin's functions
+
 ## Key features:
 
 -   Publishing Resolve's context as json data object
